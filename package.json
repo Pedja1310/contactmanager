@@ -4,21 +4,25 @@
   "private": true,
   "homepage": "https://Pedja1310.github.io/contactmanager",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap": "^4.1.3",
+    "axios": "^0.21.3",
+    "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
-    "gh-pages": "^1.2.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "gh-pages": "^2.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "uuid": "^3.3.2"
+    "react-scripts": "5.0.0",
+    "uuid": "^3.3.2",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
