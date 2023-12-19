@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://Pedja1310.github.io/contactmanager",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.1.3",
     "classnames": "^2.2.6",
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
+    "react-scripts": "5.0.0",
     "uuid": "^3.3.2"
   },
   "scripts": {
